@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "fonte";
+    src: url("idroid.otf") format("opentype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecalho {
+  
+    background: linear-gradient(#42C779, #31945B, #18472B);
+    height: 245px;
+    border-radius: 1px;
+   
+}
+
+#subtitulo {
+    text-align: center;
+    color: white;
+    margin-bottom: 48px;
+    font-family: fonte;
+    letter-spacing: 1px;
+}
+
+#titulo {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 28px;
+    padding-top: 64px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-family: fonte, "Arial", "serif";
+}
+
+.direciona {
+    font-size: 16px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);;
+    height: 50px;
+    width: 60px;
+   padding: 10px;
+    
+}
+
+.direciona:hover {
+    background-color: green;
+    border: 0px solid black;
+    border-radius: 5px;
+    
+}
+
+
+
+#main-encurtado {
+   
+    margin: auto;
+    background-color: white;
+    padding: 15px 10px;
+    min-width: 300px;
+    max-width: 800px;
+    box-shadow: 0px 0px 1px gray;
+    border-radius: 4px;
+}
+
+#principal {
+    background-color: #83D0A3;
+}
+
+#titulo2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: fonte;
+    letter-spacing: 1px;
+    color: #1E9422;
+}
+
+.texto1 {
+    
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#titulo3 {
+    font-family: fonte;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #1E9422;
+    background: linear-gradient(to right,#83d0a36b, white);
+    margin-bottom: 20px;
+}
+
+
